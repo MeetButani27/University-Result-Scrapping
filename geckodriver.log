@@ -1,0 +1,36 @@
+1684483069779	geckodriver	INFO	Listening on 127.0.0.1:50250
+1684483072851	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50251" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WELCOME\\AppData\\Local\\Temp\\rust_mozprofileweRAls"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684483073190	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684483073194	Marionette	INFO	Listening on port 50261
+Read port: 50261
+WebDriver BiDi listening on ws://127.0.0.1:50251
+1684483073348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50251/devtools/browser/73a8f24c-e1aa-4266-a652-eca4f04e61c3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+[Child 14552, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (MarionetteCommands, MarionetteCommandsParent:findElement) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://charusat.edu.in:912."
+[Child 15156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15156, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1684483155343	Marionette	INFO	Stopped listening on port 50261
+Dynamically enable window occlusion 1
