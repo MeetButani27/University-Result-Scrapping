@@ -4,6 +4,10 @@ from selenium.webdriver.support.ui import Select
 
 
 s_data = dict()
+Institue = 'CSPIT'
+Branch = 'BTECH(CS)'
+Semester = '5'
+Year = 'NOVEMBER 2022'
 
 BASE_USERNAME = '20CS'
 start = 1
@@ -38,3 +42,6 @@ for i in range(start,end+1):
         driver.back()
     except:
         continue
+
+driver.close()
+exit()
