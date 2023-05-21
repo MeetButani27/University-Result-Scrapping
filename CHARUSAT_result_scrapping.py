@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
-
+import csv
 
 s_data = dict()
 Institue = 'CSPIT'
@@ -66,6 +66,16 @@ for i in range(d2d_start,d2d_end+1):
         driver.back()
     except:
         continue
+
+
+with open('Scrap_CS.csv', 'w', encoding='UTF8') as f:
+    writer = csv.writer(f)
+
+    for i in range(start,end+1):
+        writer.writerow(s_data[BASE_USERNAME + str(i).zfill(3)])
+    
+    for i in range(d2d_start,d2d_end+1):
+        writer.writerow(s_data[D2D_BASE_USERNAME + str(i).zfill(3)])
 
 
 driver.close()
