@@ -68,8 +68,11 @@ for i in range(d2d_start,d2d_end+1):
         continue
 
 
+header = ['Roll no', 'Name', 'SGPA', 'CGPA']
+
 with open('Scrap_CS.csv', 'w', encoding='UTF8') as f:
     writer = csv.writer(f)
+    writer.writerow(header)
 
     for i in range(start,end+1):
         writer.writerow(s_data[BASE_USERNAME + str(i).zfill(3)])
